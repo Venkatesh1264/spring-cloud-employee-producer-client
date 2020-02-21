@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.bean.Employee;
-
+//This is form employee controller
 @RestController
 public class EmployeeController {
 	@RequestMapping(value="employees",method=RequestMethod.GET)
